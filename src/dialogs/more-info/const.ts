@@ -25,6 +25,7 @@ export const DOMAINS_WITH_NEW_MORE_INFO = [
 /** Domains with separate more info dialog. */
 export const DOMAINS_WITH_MORE_INFO = [
   "alarm_control_panel",
+  "alert",
   "automation",
   "camera",
   "climate",

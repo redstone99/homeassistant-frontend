@@ -7,6 +7,7 @@ import {
 
 const LAZY_LOADED_MORE_INFO_CONTROL = {
   alarm_control_panel: () => import("./controls/more-info-alarm_control_panel"),
+  alert: () => import("./controls/more-info-alert"),
   automation: () => import("./controls/more-info-automation"),
   camera: () => import("./controls/more-info-camera"),
   climate: () => import("./controls/more-info-climate"),
